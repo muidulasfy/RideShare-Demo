@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #eef6ff;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 66px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 62px 0 73px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    width: 310px;
+    color: #2864df;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 11px;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-item {
+    color: #27364d;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 3px 9px;
+    border-radius: 14px;
+    background: #f8fafc;
+    box-shadow: 0 2px 4px #bbb;
+}
+
+.nav-item.active {
+    background: #dceaff;
+}
+
+.auth {
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 43px;
+}
+
+.auth a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login {
+    color: #1759df;
+}
+
+.signup {
+    color: black;
+}
+
+
+/* Hero */
+
+.hero {
+    height: 467px;
+    display: flex;
+    gap: 50px;
+    padding: 45px 73px 55px;
+}
+
+.hero-left {
+    width: 46%;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    height: 35px;
+    padding: 0 17px;
+    border: 1px solid #2468ed;
+    border-radius: 20px;
+    color: #2563df;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.badge-dot {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 17px;
+    font-size: 40px;
+    line-height: 1.55;
+}
+
+h1 span {
+    display: block;
+    color: #2864df;
+}
+
+.description {
+    width: 370px;
+    margin-top: 4px;
+    font-size: 13.5px;
+    line-height: 1.48;
+}
+
+.buttons {
+    display: flex;
+    gap: 97px;
+    margin-top: 25px;
+}
+
+.find-btn,
+.post-btn {
+    height: 40px;
+    border-radius: 9px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.find-btn {
+    width: 131px;
+    border: none;
+    color: white;
+    background: #2864e4;
+    box-shadow: 0 4px 7px #b5c9ef;
+}
+
+.post-btn {
+    width: 132px;
+    border: none;
+    background: white;
+    color: #2864df;
+    box-shadow: 0 3px 7px #c7d7f5;
+}
+
+.search-icon {
+    margin-right: 6px;
+    font-size: 10px;
+}
+
+.plus {
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.stats {
+    display: flex;
+    gap: 49px;
+    margin-top: 24px;
+}
+
+.stat h2 {
+    color: #2864df;
+    font-size: 25px;
+}
+
+.stat p {
+    margin-top: 7px;
+    font-size: 11px;
+}
+
+.hero-right {
+    width: 54%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-container {
+    width: 527px;
+    height: 365px;
+    overflow: hidden;
+    border-radius: 88px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Why RideNest */
+
+.why-ridenest {
+    background: white;
+    padding: 10px 0 32px;
+    min-height: 410px;
+}
+
+.why-heading {
+    text-align: center;
+}
+
+.why-heading p {
+    color: #2864df;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.why-heading h2 {
+    font-size: 25px;
+}
+
+.feature-container {
+    width: 82.8%;
+    margin: 44px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px 58px;
+}
+
+.feature-card {
+    height: 140px;
+    padding: 13px 23px;
+    background: #f7f7f7;
+    border: 1px solid #e2e7ed;
+    border-radius: 14px;
+    box-shadow: 0 3px 3px #bbb;
+}
+
+.feature-icon {
+    width: 37px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.feature-icon svg {
+    width: 37px;
+    height: 37px;
+    fill: none;
+    stroke: #2869ed;
+    stroke-width: 1.8;
+}
+
+.dollar-icon {
+    color: #2864df;
+    font-size: 40px;
+}
+
+.feature-text h3 {
+    font-size: 11px;
+}
+
+.feature-text p {
+    font-size: 10.5px;
+    line-height: 1.45;
+}
+
+
+/* How It Works */
+
+.how-it-works {
+    height: 560px;
+    background: #eef6ff;
+    padding-top: 28px;
+}
+
+.how-heading {
+    text-align: center;
+}
+
+.how-heading p {
+    color: #2864df;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.how-heading h2 {
+    font-size: 26px;
+}
+
+.steps-container {
+    width: 981px;
+    height: 280px;
+    position: relative;
+    margin: 20px auto 0;
+}
+
+.step-card {
+    width: 285px;
+    height: 140px;
+    position: absolute;
+    padding: 34px 21px;
+    border-radius: 14px;
+    box-shadow: 0 3px 3px #aaa;
+}
+
+.step-one {
+    left: 0;
+    top: 0;
+    background: #d9e8fc;
+}
+
+.step-two {
+    left: 343px;
+    top: 40px;
+    background: white;
+}
+
+.step-three {
+    left: 697px;
+    top: 70px;
+    background: #d9e8fc;
+}
+
+.step-number {
+    color: #2868ed;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.step-card h3 {
+    margin: 7px 0 5px;
+    font-size: 15px;
+}
+
+.step-description {
+    font-size: 10.5px;
+    line-height: 1.7;
+}
+
+
+/* CTA */
+
+.cta-box {
+    width: 981px;
+    height: 146px;
+    margin: 0 auto;
+    padding: 0 47px;
+    border-radius: 33px;
+    background: #2864e5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-text h2 {
+    font-size: 25px;
+}
+
+.cta-text p {
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 34px;
+}
+
+.get-started,
+.browse-rides {
+    width: 139px;
+    height: 42px;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.get-started {
+    border: none;
+    background: white;
+    box-shadow: 0 3px 5px #aaa;
+}
+
+.browse-rides {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 287px;
+    padding: 47px 6.4% 0;
+    background: #12102f;
+    color: white;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2.7fr .75fr .9fr .75fr;
+    gap: 65px;
+}
+
+.footer-brand h2 {
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.footer-brand p {
+    width: 280px;
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: #c4c2d0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    margin-top: 36px;
+    padding-top: 36px;
+    border-top: 1px solid #77758a;
+}
+
+.footer-bottom p {
+    font-size: 9px;
+}

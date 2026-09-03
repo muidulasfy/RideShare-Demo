@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #202b40;
+}
+
+.navbar {
+    height: 66px;
+    padding: 0 70px 0 117px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.logo {
+    width: 310px;
+    color: #2864df;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-links a {
+    padding: 3px 9px;
+    color: #27364d;
+    text-decoration: none;
+    font-size: 12px;
+    background: #f8fafc;
+    border-radius: 14px;
+    box-shadow: 0 2px 4px #bbb;
+}
+
+.nav-links .active {
+    background: #cfe1ff;
+}
+
+.profile-icon,
+.user-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.profile-icon {
+    width: 37px;
+    height: 37px;
+    margin-left: auto;
+    background: #1768e8;
+    color: white;
+}
+
+.profile-box {
+    width: 290px;
+    height: 132px;
+    margin: 13px auto 28px;
+    padding: 10px 13px 0;
+    background: #d7e7fc;
+    border-radius: 15px;
+    box-shadow: 0 3px 5px #ddd;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.user-icon {
+    width: 38px;
+    height: 38px;
+    background: white;
+}
+
+.profile-info h3 {
+    font-size: 14px;
+}
+
+.profile-info p {
+    color: #68758a;
+    font-size: 9px;
+}
+
+.rank {
+    margin-top: 7px;
+    color: #ff7900;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.progress {
+    height: 8px;
+    margin-top: 2px;
+    background: white;
+    border-radius: 10px;
+}
+
+.progress div {
+    width: 52%;
+    height: 100%;
+    background: #ff7900;
+    border-radius: 10px;
+}
+
+.profile-box small {
+    font-size: 6px;
+}
+
+.point-details {
+    height: 25px;
+    margin: 7px -13px 0;
+    padding-top: 5px;
+    text-align: center;
+    color: #ff7900;
+    font-size: 10px;
+    background: #c7daf3;
+    border-radius: 0 0 15px 15px;
+}
+
+.stats {
+    width: 776px;
+    margin: auto;
+}
+
+.stat-box {
+    height: 98px;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #eee;
+}
+
+.blue,
+.ride-card.selected {
+    background: #c5dcfa;
+}
+
+.stat-box h2 {
+    font-size: 15px;
+}
+
+.stat-box p {
+    margin-top: 7px;
+    color: #718096;
+    font-size: 11px;
+}
+
+.rides {
+    width: 1128px;
+    margin: 50px auto;
+}
+
+.rides h2 {
+    margin-bottom: 33px;
+    font-size: 20px;
+}
+
+.ride-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.ride-card {
+    height: 110px;
+    padding: 17px 18px;
+    border: 1px solid #222;
+    border-radius: 14px;
+    box-shadow: 0 3px 4px #bbb;
+}
+
+.ride-card h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.ride-card p {
+    color: #64748b;
+    font-size: 11px;
+    line-height: 1.55;
+}
