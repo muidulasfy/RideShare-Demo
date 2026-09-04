@@ -10,14 +10,12 @@ body {
 }
 
 
-/* Navbar */
-
 .navbar {
     height: 66px;
     background: white;
     display: flex;
     align-items: center;
-    padding: 0 62px 0 73px;
+    padding: 0 62px 0 80px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -45,7 +43,7 @@ body {
     box-shadow: 0 2px 4px #bbb;
 }
 
-.nav-item.active {
+.active {
     background: #dceaff;
 }
 
@@ -53,28 +51,25 @@ body {
     width: 180px;
     display: flex;
     justify-content: flex-end;
-    gap: 43px;
+    gap: 45px;
 }
 
-.auth a {
+.login {
+    color: #1759df;
     text-decoration: none;
     font-size: 14px;
     font-weight: 600;
 }
 
-.login {
-    color: #1759df;
-}
-
 .signup {
     color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
 }
 
-
-/* Hero */
-
 .hero {
-    height: 467px;
+    height: 465px;
     display: flex;
     gap: 50px;
     padding: 45px 73px 55px;
@@ -88,7 +83,7 @@ body {
     display: inline-flex;
     align-items: center;
     height: 35px;
-    padding: 0 17px;
+    padding:  20px;
     border: 1px solid #2468ed;
     border-radius: 20px;
     color: #2563df;
@@ -104,7 +99,6 @@ body {
 h1 {
     margin-top: 17px;
     font-size: 40px;
-    line-height: 1.55;
 }
 
 h1 span {
@@ -116,7 +110,7 @@ h1 span {
     width: 370px;
     margin-top: 4px;
     font-size: 13.5px;
-    line-height: 1.48;
+    text-align: justify;
 }
 
 .buttons {
@@ -125,8 +119,7 @@ h1 span {
     margin-top: 25px;
 }
 
-.find-btn,
-.post-btn {
+.btn {
     height: 40px;
     border-radius: 9px;
     font-family: inherit;
@@ -134,7 +127,7 @@ h1 span {
     font-weight: 700;
 }
 
-.find-btn {
+.find-button {
     width: 131px;
     border: none;
     color: white;
@@ -142,7 +135,7 @@ h1 span {
     box-shadow: 0 4px 7px #b5c9ef;
 }
 
-.post-btn {
+.post-button {
     width: 132px;
     border: none;
     background: white;
@@ -162,22 +155,22 @@ h1 span {
 
 .stats {
     display: flex;
-    gap: 49px;
+    gap: 50px;
     margin-top: 24px;
 }
 
-.stat h2 {
+.number {
     color: #2864df;
     font-size: 25px;
 }
 
-.stat p {
+.para {
     margin-top: 7px;
     font-size: 11px;
 }
 
 .hero-right {
-    width: 54%;
+    width: 55%;
     display: flex;
     justify-content: flex-end;
 }
@@ -195,31 +188,20 @@ h1 span {
     object-fit: cover;
 }
 
-
-/* Why RideNest */
-
-.why-ridenest {
+.part-1 {
     background: white;
     padding: 10px 0 32px;
     min-height: 410px;
 }
 
-.why-heading {
-    text-align: center;
-}
-
-.why-heading p {
+.p1-para {
     color: #2864df;
     font-size: 14px;
     font-weight: 700;
 }
 
-.why-heading h2 {
-    font-size: 25px;
-}
-
 .feature-container {
-    width: 82.8%;
+    width: 83%;
     margin: 44px auto 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -256,36 +238,21 @@ h1 span {
     font-size: 40px;
 }
 
-.feature-text h3 {
-    font-size: 11px;
-}
 
 .feature-text p {
     font-size: 10.5px;
     line-height: 1.45;
 }
 
-
-/* How It Works */
-
-.how-it-works {
+.part-2{
     height: 560px;
     background: #eef6ff;
     padding-top: 28px;
 }
-
-.how-heading {
-    text-align: center;
-}
-
-.how-heading p {
+.p2-para {
     color: #2864df;
     font-size: 14px;
     font-weight: 700;
-}
-
-.how-heading h2 {
-    font-size: 26px;
 }
 
 .steps-container {
@@ -328,7 +295,7 @@ h1 span {
     font-weight: 700;
 }
 
-.step-card h3 {
+.sc{
     margin: 7px 0 5px;
     font-size: 15px;
 }
@@ -337,9 +304,6 @@ h1 span {
     font-size: 10.5px;
     line-height: 1.7;
 }
-
-
-/* CTA */
 
 .cta-box {
     width: 981px;
@@ -354,9 +318,6 @@ h1 span {
     justify-content: space-between;
 }
 
-.cta-text h2 {
-    font-size: 25px;
-}
 
 .cta-text p {
     margin-top: 3px;
@@ -369,8 +330,7 @@ h1 span {
     gap: 34px;
 }
 
-.get-started,
-.browse-rides {
+.cta-btn{
     width: 139px;
     height: 42px;
     border-radius: 18px;
@@ -390,9 +350,6 @@ h1 span {
     background: transparent;
     border: 1px solid white;
 }
-
-
-/* Footer */
 
 .footer {
     height: 287px;
@@ -428,7 +385,7 @@ h1 span {
     margin-bottom: 5px;
 }
 
-.footer-column a {
+.fc{
     color: #c4c2d0;
     text-decoration: none;
     font-size: 14px;
@@ -439,8 +396,4 @@ h1 span {
     margin-top: 36px;
     padding-top: 36px;
     border-top: 1px solid #77758a;
-}
-
-.footer-bottom p {
-    font-size: 9px;
 }
