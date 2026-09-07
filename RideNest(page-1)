@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <title>RideNest - My Bookings</title>
+  <link rel="stylesheet" href="My Rides.css" />
+ 
+</head>
+<body>
+  <div class="page">
+    <header class="top-menu">
+      <div class="logo">RideNest</div>
+
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">Find Ride</a>
+        <a href="#">Post Ride</a>
+        <a href="#" class="active">My Rides</a>
+        <a href="#">Chat</a>
+        <a href="#">Profile</a>
+      </div>
+
+     <div class="profile-icon">&#128100;</div>
+    </header>
+
+    <main class="content">
+      <h1>My bookings</h1>
+      <p class="subtitle">Track upcoming and previous ride bookings.</p>
+
+      <div class="tabs">
+        <button class="tab active">Upcoming</button>
+        <button class="tab">Past</button>
+      </div>
+
+      <div class="booking-list">
+        <div class="booking-card">
+          <div class="booking-info">
+            <h3>Confirmed • Arif Rahman</h3>
+            <p>Dhanmondi → United International University</p>
+            <p>31 Jul • 8:00 AM • Seat 2</p>
+          </div>
+
+          <div class="booking-actions">
+            <button class="message-btn">Message Driver</button>
+            <button class="delete-btn" aria-label="Delete booking">🗑</button>
+          </div>
+        </div>
+
+        <div class="booking-card pending-card">
+          <div class="booking-info">
+            <h3>Pending • Sadiq Khan</h3>
+            <p>Uttara → BRAC University</p>
+            <p>02 Aug • 8:30 AM • 1 seat requested</p>
+          </div>
+
+          <div class="booking-actions">
+            <button class="message-btn">Message Driver</button>
+            <button class="delete-btn" aria-label="Delete booking">🗑</button>
+          </div>
+        </div>
+
+        <div class="booking-card">
+          <div class="booking-info">
+            <h3>Completed • Tanvir Ahmed</h3>
+            <p>Mirpur 10 → North South University</p>
+            <p>22 Jul • 9:00 AM</p>
+            <p>Leave Rating & Review</p>
+          </div>
+
+          <div class="booking-actions">
+            <button class="message-btn completed-btn">Message Driver</button>
+            <button class="delete-btn" aria-label="Delete booking">🗑</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
