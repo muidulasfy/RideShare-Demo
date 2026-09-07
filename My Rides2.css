@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #1e2b43;
+}
+
+/* Makes the complete dashboard 30% smaller */
+.dashboard {
+  zoom: 0.7;
+  min-height: 100vh;
+  padding: 25px 75px;
+}
+
+.topbar {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #1765ed;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 13px;
+  margin-left: 140px;
+}
+
+.menu-item {
+  padding: 6px 13px;
+  color: #26354d;
+  background: #f4f6fa;
+  border-radius: 14px;
+  font-size: 13px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.active-menu {
+  background: #d9e8ff;
+}
+
+.user-icon {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: #1765ed;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  margin-top: 35px;
+}
+
+.page-title {
+  font-size: 31px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.page-subtitle {
+  color: #5e7194;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 58px;
+}
+
+.tab {
+  padding: 15px 23px;
+  border-radius: 13px;
+  background: #eaf2ff;
+  color: #1765ed;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Upcoming is dark blue */
+.upcoming {
+  background: #1765ed;
+  color: #ffffff;
+}
+
+.booking-card {
+  width: 100%;
+  min-height: 154px;
+  padding: 25px;
+  margin-bottom: 38px;
+  border: 1px solid #d6dfec;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pending-card {
+  background: #edf5ff;
+}
+
+.booking-info {
+  flex: 1;
+}
+
+.booking-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.booking-text {
+  color: #5e7194;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Space between message button and trash icon */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+  padding-right: 55px;
+}
+
+.message-button {
+  white-space: nowrap;
+  padding: 12px 24px;
+  border: 1px solid #111111;
+  border-radius: 24px;
+  background: #f5f5f5;
+  color: #111111;
+  font-size: 16px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.completed-button {
+  background: #bcd7ff;
+}
+
+.trash-icon {
+  width: 30px;
+  height: 34px;
+  border: 5px solid #1765ed;
+  border-top: 0;
+  position: relative;
+}
+
+.trash-icon::before {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 5px;
+  background: #1765ed;
+  top: -9px;
+  left: -9px;
+}
+
+.trash-icon::after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 5px;
+  background: #1765ed;
+  top: -14px;
+  left: 4px;
+}
+
+.trash-line {
+  width: 4px;
+  height: 21px;
+  background: #1765ed;
+  position: absolute;
+  top: 4px;
+  left: 7px;
+}
+
+.trash-line:last-child {
+  left: 14px;
+}

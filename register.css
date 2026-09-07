@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.full-screen{
+    height:100vh;
+}
+.header {
+    height: 55px;
+    background-color: white;
+}
+.horizontal-line{
+    height:2px;
+    background-color: grey;
+    width:100%;
+}
+
+.color1{
+    background-color: blue;
+}
+
+.nav-bar {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.tabs {
+    display: flex;
+    gap: 9px;
+    margin-left: 27%;
+}
+
+.tab {
+    padding: 4px 9px;
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px #aaa;
+    font-size: 11px;
+    color: #334155;
+}
+
+
+.buttons{
+    display: flex;
+    gap:5px;
+}
+.b1{
+    padding:5px;
+    color:black;
+    border-radius: 8px;
+
+}
+.b2{
+    padding:5px;
+    color:white;
+    border-radius: 8px;
+
+}
+
+.color2{
+    background-color:rgb(226, 234, 248);
+ 
+}
+.color3{
+    background-color:rgb(159, 182, 221);
+ 
+}
+
+.main-body {
+    height: 88%;
+    background-color: rgb(226, 234, 248);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height:80%;
+    display:grid;
+    grid-template-columns: auto auto;
+    column-gap:0px;
+    row-gap: 0px;
+      width: 70%;
+    box-shadow: 3px 4px 2px grey;
+
+ 
+    border-radius: 16px;;
+}
+.child{
+    padding:50px;
+    background-color: white;
+    border-radius: 8px;
+     border: 2px solid rgb(242, 242, 247);
+}
+
+.form-div{
+    width:80%;
+}
+.input-field{
+    width:95%;
+    padding:5px;
+    margin:5px;
+    border-radius: 8px;
+    height: 50px;
+    border: 2px solid rgba(169, 169, 170, 0.603);
+
+}
+.register {
+    color: white;
+    background-color: #2563eb;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px #aaa;
+}
+
+.title1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.title2{
+    color:grey;
+}
+
+.pro-pic {
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: #2563eb;
+}
