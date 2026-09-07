@@ -1,0 +1,175 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e8e8e8;
+  font-family: "Poppins", sans-serif;
+  color: #202b42;
+}
+
+.page {
+  width: min(1170px, calc(100% - 24px));
+  min-height: auto;
+  margin: 6px auto;
+  background: #ffffff;
+  padding: 20px 52px 150px;
+   transform: scale(0.8);
+  transform-origin: top center;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #1769f3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  margin-left: 150px;
+}
+
+.menu a {
+  background: #f4f6fa;
+  color: #33415c;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px #aeb5c0;
+  font-size: 12px;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+.menu .active {
+  
+  background: #82abf1; 
+  color: black;        
+}
+
+.profile-icon {
+  align-items: center;
+  background: #1769f3;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  font-size: 22px;
+  height: 35px;
+  justify-content: center;
+  width: 35px;
+}
+
+.content {
+  margin-top: 48px;
+}
+
+.content h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #667796;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.tab {
+  background: #f0f5ff;
+  border: none;
+  border-radius: 10px;
+  color: #1769f3;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 11px 17px;
+}
+
+.active {
+  background: #1769f3;
+  color: white;
+}
+
+.booking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.booking-card {
+  align-items: center;
+  border: 1px solid #e0e5ee;
+  border-radius: 16px;
+  box-shadow: 0 3px 3px #b9b9b9;
+  display: flex;
+  justify-content: space-between;
+  min-height: 128px;
+  padding: 18px;
+}
+
+.pending-card {
+  background: #eef6ff;
+}
+
+.booking-info h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.booking-info p {
+  color: #617493;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.booking-actions {
+  align-items: center;
+  display: flex;
+  gap: 88px;
+  padding-right: 45px;
+}
+
+.message-btn {
+  background: white;
+  border: 1px solid #222;
+  border-radius: 22px;
+  box-shadow: 0 2px 2px #aaa;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 7px 19px;
+}
+
+.pending-card .message-btn {
+  background: #eeeeee;
+}
+
+.completed-btn {
+  background: #dcecff;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #1769f3;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
